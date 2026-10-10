@@ -1,0 +1,16 @@
+{
+  "name": "IndoorSeg",
+  "num_classes": 3,
+  "classes": {
+    "0": "table",
+    "1": "apple",
+    "2": "banana"
+  },
+  "num_samples": 1000,
+  "format": "PLY ASCII",
+  "camera": "simulated RGB-D, low angle, camera coords",
+  "split": {
+    "train": 800,
+    "val": 200
+  }
+}
